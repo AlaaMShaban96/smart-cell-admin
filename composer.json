@@ -9,15 +9,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "grpc/grpc": "^v1.0.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "google/cloud-firestore": "^1.18",
+        "grpc/grpc": "^v1.0.0",
         "guzzlehttp/guzzle": "^7.2",
         "intervention/image": "^2.5",
         "kreait/laravel-firebase": "^3.0",
         "laravel/framework": "^8.12",
-        "laravel/socialite": "^5.1",
+        "laravel/socialite": "^5.2",
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "~1.0",
         "revolution/laravel-google-sheets": "^5.4"

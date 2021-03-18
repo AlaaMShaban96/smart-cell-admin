@@ -29,16 +29,16 @@
 
                     <li class="{{ (\Request::route()->getName() == 'index') ? 'active' : '' }}">
                         
-                        <a href="{{url('/')}}"><i class="menu-icon fa fa-laptop"></i>الرئيسية</a>
+                        <a href="{{url('/index')}}"><i class="menu-icon fa fa-laptop"></i>الرئيسية</a>
                     
                     </li>
                     
                     
-                    <li class="{{ (\Request::route()->getName() == 'team') ? 'active' : '' }}">
+                    {{-- <li class="{{ (\Request::route()->getName() == 'team') ? 'active' : '' }}">
                     
-                        <a href="{{url('/team')}}"> <i class="menu-icon fa fa-users"></i>الموظفين</a>
+                        <a href="#"> <i class="menu-icon fa fa-users"></i>الموظفين</a>
                     
-                    </li>
+                    </li> --}}
                     
                  
                     

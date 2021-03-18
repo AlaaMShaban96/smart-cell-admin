@@ -25,7 +25,7 @@
             </div>
         @endforeach
     @endif
-    <a href='{{url('/')}}' class="btn btn-warning text-white m-3">رجوع</a>
+    <a href='{{url('/index')}}' class="button-overlay btn btn-warning text-white m-3">رجوع</a>
 
     <form action="{{url("/store")}}" class='text-right' method="POST" enctype="multipart/form-data" >
         @csrf
